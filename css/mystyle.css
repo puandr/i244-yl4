@@ -1,11 +1,11 @@
 
 #first-ring {
+	background-color: transparent;
 	position: fixed;
 	top: 200px;
 	left: 200px;
-	height: 100px;
-	width: 100px;
-	
+	height: 300px;
+	width: 300px;
 }
 
 .sise {
@@ -14,10 +14,13 @@
 	border: 1px solid black;
 }
 
+
 div:nth-child(1) {
 	height: 100%;
 	width: 100%;
-	background: green;	
+	background: blue;
+	left: 0%;
+	top: 0%;
 }
 
 div:nth-child(2) {
@@ -36,6 +39,8 @@ div:nth-child(4) {
 	height: 70%;
 	width: 70%;
 	background: red;
+	left: 15%;
+	top: 15%;
 }
 
 div:nth-child(5) {
